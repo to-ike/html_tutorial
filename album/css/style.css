@@ -1,0 +1,112 @@
+@import url(sanitize.css);
+body{
+  color: #333;
+  padding: 10px;
+  font-size: 14px;
+}
+
+h1 {
+  background-color: brown;
+  text-align: center;
+  font-size: 28px;
+  margin: 0;
+  color: #ccc;
+}
+      
+img {
+  width: 25%;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+img:hover {
+  opacity:0.4;
+}
+
+.description{
+  display: inline-block;
+  width: 70%;
+}
+
+.description p {
+  margin-top: 0; 
+}
+
+h3 {
+  font-size: 13px;
+}
+
+h4 {
+  background-color: #999;
+  font-size: 20px;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.content {
+  background-color: white; 
+  max-width: 800px;
+  margin: 10px auto;
+  border: 1px solid #333;
+  box-shadow: 2px 2px 8px;
+}
+
+.container{
+  padding: 20px;
+}
+
+ol{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: decimal inside;
+  
+}
+  
+li{
+  float: left;
+  width: 50%;
+  padding: 5px 10px;
+  border-bottom: 1px solid #333;
+}
+
+.album {
+  background-color: yellow;
+  color:#333;;
+  font-size: 12px;
+  padding: 3px;
+  font-weight: bold;
+}
+
+.conpany {
+  font-size: 10px;
+  text-align: center;
+}
+
+.clearfix:after{
+  content: "";
+  display: table;
+  clear: both;
+ }
+
+ footer {
+  margin: 0;
+  text-align: center;
+  font-size: 80%;
+  background-color: #999;
+ }
+
+ @media screen and (max-width: 600px) {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  .description{
+    display: block;
+    width: 100%;
+  }
+  li{
+    width: 100%;
+  }
+}
